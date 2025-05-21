@@ -1,6 +1,7 @@
 const {isPrime} = require("./isPrime");
 const factorial = require("./factorial");
 const {readFileData, appendFileData} = require("./fileOperations");
+const getSystemInfo = require("./getSystemInfo");
 
 
 isPrime(5);
@@ -16,4 +17,4 @@ factorial(8);
 
 readFileData("./data");
 appendFileData("./data");
-
+getSystemInfo();
