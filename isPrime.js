@@ -19,9 +19,5 @@ const isPrime = (n) => {
         
     console.log(n + " is a prime number");
 }
-const test1 = () => {
-    console.log("helllooo");
-
-}
 
 module.exports = {isPrime};

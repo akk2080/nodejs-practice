@@ -12,7 +12,7 @@ app.get('/home', (req, res) => {
 });
 
 app.get('/aboutus', (req, res) => {
-    res.status(200).json({message:'welcome to aboout us'});
+    res.status(200).json({message:'welcome to about us'});
 })
 
 app.get('/contactus', (req, res) => {

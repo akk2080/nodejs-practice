@@ -1,12 +1,12 @@
 const fs = require("fs");
 
-const readFileData = () => {
-    const data = fs.readFileSync("./data.txt", "utf-8");
+const readFileData = (filePath) => {
+    const data = fs.readFileSync(filePath, "utf-8");
     console.log(data);
 }
 
-const appendFileData = () => {
-    fs.appendFileSync("./data.txt", " \nthis is the appended data");
+const appendFileData = (filePath) => {
+    fs.appendFileSync(filePath, " \nthis is the appended data");
     console.log("data appneded");
 }
 
